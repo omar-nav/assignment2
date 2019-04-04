@@ -1,0 +1,48 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+#beach {
+  background-color: aqua;
+}
+#beach img {
+  margin: auto;
+  display: block;
+  padding: 20px;
+  width: 80%;
+}
+#hello {
+  font-size: 25px;
+  padding: 10px 15px 5px 10px;
+}
+.container1 {
+  margin: 10px 5px 2px 10px;
+  /* applied flex property to parent class */
+  display: flex;
+}
+.left-side1 {
+  background-color: cornflowerblue;
+  color: white;
+  height: 150px;
+  padding: 15px 10px 15px 15px;
+}
+.left-side1 p {
+  font-size: 19px;
+}
+.right-side1 {
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: black;
+  }
+}
